@@ -11,7 +11,7 @@ var transfor = nodemailer.createTransport({
 var mailBilgi = {
     from:"user@gmail.com",
     to:"receivers@gmail.com", // gönderilen kişinin mail bilgileri
-    subject: "Node js ile mail", // Başlık 
+    subject: "Node.js ile mail", // Başlık 
     text: "Bu bir test mesajıdır"
 };
 
